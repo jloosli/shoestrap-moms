@@ -53,7 +53,7 @@ function shoestrap_child_load_stylesheet() {
 	wp_enqueue_style( 'shoestrap_child_css', get_stylesheet_uri(), false, null );
 }
 // Uncomment the line below to enqueue the stylesheet
-// add_action('wp_enqueue_scripts', 'shoestrap_child_load_stylesheet', 100);
+ add_action('wp_enqueue_scripts', 'shoestrap_child_load_stylesheet', 100);
 
 
 /*
