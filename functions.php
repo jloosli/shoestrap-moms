@@ -19,6 +19,7 @@ endif;
 
 // Include some admin options.
 require_once locate_template( 'lib/admin-options.php' );
+require_once locate_template( 'lib/modules/allowsvg/module.php' );
 
 /*
  * Add a less file from our child theme to the parent theme's compiler.
