@@ -18,8 +18,8 @@ if ( file_exists( get_template_directory() . '/lib/modules/blog/module.php' ) ) 
 endif;
 
 // Include some admin options.
-require_once locate_template( 'lib/admin-options.php' );
-require_once locate_template( 'lib/modules/allowsvg/module.php' );
+require_once locate_template( '/lib/admin-options.php' );
+require_once locate_template( '/lib/modules/load.modules.php' );
 
 /*
  * Add a less file from our child theme to the parent theme's compiler.
